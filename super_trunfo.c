@@ -11,10 +11,10 @@ int main()
     // Carta 1
     printf("Carta 1: \n");
     printf("Digite o estado (letra de A a H): \n");
-    scanf("%c", &estado1);
+    scanf(" %c", &estado1);
     
     printf("Digite o código da carta (ex: A01, B03): \n");
-    scanf("%s", &codigo1);
+    scanf("%s", codigo1);
 
     printf("Digite o Nome da Cidade: \n");
     scanf("%s", &cidade1);
@@ -34,10 +34,10 @@ int main()
     // Carta 2
     printf("Carta 2: \n");
     printf("Digite o estado (letra de A a H): \n");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);
     
     printf("Digite o código da carta (ex: A01, B03): \n");
-    scanf("%s", &codigo2);
+    scanf("%s", codigo2);
 
     printf("Digite o Nome da Cidade: \n");
     scanf("%s", &cidade2);
